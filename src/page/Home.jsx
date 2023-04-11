@@ -1,6 +1,6 @@
-function HomeScreen() {
+function Home() {
   return (
-    <div className="home-screen">
+    <div className="home">
       <h1>Welcome to my RPG Text Game</h1>
       <button className="scavenge-button">Scavenge for Loot</button>
       <button className="expedition-button">Go on an Expedition</button>
@@ -11,4 +11,4 @@ function HomeScreen() {
   );
 }
 
-export default HomeScreen;
+export default Home;

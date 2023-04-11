@@ -1,4 +1,4 @@
-import HomeScreen from "./components/HomeScreen.jsx";
+import HomeScreen from "./page/Home.jsx";
 
 function App() {
   return (
