@@ -1,16 +1,11 @@
-import React from 'react';
+import HomeScreen from "./components/HomeScreen.jsx";
 
-function HomeScreen() {
+function App() {
   return (
-    <div>
-      <h1>Path's by Torchlight</h1>
-      <button>Scavenge</button>
-      <button>Expedition</button>
-      <button>Jobs</button>
-      <button>Room</button>
-      <button>Profile</button>
+    <div className="app">
+      <HomeScreen />
     </div>
   );
 }
 
-export default HomeScreen;
+export default App;
