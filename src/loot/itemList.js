@@ -1,18 +1,29 @@
 const items = [
     {
-      name: "Sword of the Undead",
-      description: "A cursed sword that drains the life force of its wielder.",
-      value: "50 gold",
+        name: 'Sword',
+        description: 'A sharp sword made of steel',
+        value: { gold: 1, silver: 0, copper: 0 },
     },
     {
-      name: "Wand of Fireball",
-      description: "A wand that shoots fireballs with devastating effect.",
-      value: "25 gold",
+        name: 'Potion',
+        description: 'A healing potion that restores health',
+        value: { gold: 0, silver: 1, copper: 0 },
     },
     {
-      name: "Cloak of Invisibility",
-      description: "A cloak that renders the wearer invisible to the naked eye.",
-      value: "75 gold",
+        name: 'Staff',
+        description: 'A wooden staff imbued with magical powers',
+        value: { gold: 2, silver: 0, copper: 0 },
     },
-    // Add more items here
-];
+    {
+        name: 'Ring',
+        description: 'A silver ring with a magical gemstone',
+        value: { gold: 0, silver: 0, copper: 50 },
+    },
+    {
+        name: 'Leather Armor',
+        description: 'Armor made of tanned leather',
+        value: { gold: 0, silver: 2, copper: 0 },
+    },
+  ];
+  
+  export default items;
