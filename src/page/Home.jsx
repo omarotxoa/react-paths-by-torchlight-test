@@ -64,7 +64,7 @@ function Home() {
           </ul>
         </div>
       )}
-      <button onClick={resetCooldown}>Reset Cooldown</button>
+      {cooldown > 0 && <button onClick={resetCooldown}>Reset Cooldown</button>}
     </div>
   );
 }
