@@ -62,14 +62,14 @@ function Home() {
 
   return (
     <div className="home">
-      <h1>Welcome to my RPG Text Game</h1>
+      <h1>Path's by Torchlight</h1>
       <button className="scavenge-button" onClick={scavenge} disabled={cooldown > 0}>
-        {cooldown > 0 ? `Cooldown: ${getCooldownText()}` : "Scavenge for Loot"}
+        {cooldown > 0 ? `Cooldown: ${getCooldownText()}` : "Scavenge"}
       </button>
-      <button className="expedition-button">Go on an Expedition</button>
-      <button className="jobs-button">View Available Jobs</button>
-      <button className="room-button">Go to your Room</button>
-      <button className="profile-button">View your Profile</button>
+      <button className="expedition-button">Expedition</button>
+      <button className="jobs-button">Jobs</button>
+      <button className="room-button">Room</button>
+      <button className="profile-button">Profile</button>
       {loot.length > 0 && (
         <div>
           <h2>You found:</h2>
@@ -82,7 +82,7 @@ function Home() {
           </ul>
         </div>
       )}
-      <button onClick={resetCooldown}>Test Reset Cooldown</button>
+      <button onClick={resetCooldown}>Reset Cooldown</button>
     </div>
   );
 }
